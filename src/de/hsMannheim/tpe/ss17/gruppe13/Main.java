@@ -1,10 +1,18 @@
 package de.hsMannheim.tpe.ss17.gruppe13;
 
-public class Main {
+public class Main extends Baum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Baum myBaum = new Baum();
+		
+		myBaum.insert(2);
+		myBaum.insert(0);
+		myBaum.insert(6);
+		myBaum.insert(9);
+		
+		
+		System.out.println(myBaum.size());
+		myBaum.size();
 	}
 
 }

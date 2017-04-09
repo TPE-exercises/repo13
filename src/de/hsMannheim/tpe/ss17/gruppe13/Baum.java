@@ -45,7 +45,7 @@ public class Baum implements BTree {
 
 			} else {
 				insert(parent.rechts, o);
-				if (((BTree) parent.links).height() - ((BTree) parent.rechts).height() == -2) {
+				if ( parent.links.height() - parent.rechts.height() == -2) {
 					if (o - parent.rechts.wert < 0) {
 						parent = rotateWithRightChild(parent);
 					} else {

@@ -11,4 +11,11 @@ public class Node {
 		this.wert = i;
 		this.parent = parent;
 	}
+
+	public int height() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
 }
