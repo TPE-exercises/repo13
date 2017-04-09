@@ -12,10 +12,7 @@ public class Node {
 		this.parent = parent;
 	}
 
-	public int height() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 
 	
 }
