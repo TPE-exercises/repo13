@@ -1,4 +1,4 @@
-package repo13;
+package de.hsMannheim.tpe.ss17.gruppe13;
 
 public class Node {
 
@@ -6,9 +6,9 @@ public class Node {
 	public Node rechts;
 	public int wert;
 	public Node parent;
-	
-	public Node(Integer i, Node parent){
-		this.wert=i;
+
+	public Node(Integer i, Node parent) {
+		this.wert = i;
 		this.parent = parent;
-		}
+	}
 }

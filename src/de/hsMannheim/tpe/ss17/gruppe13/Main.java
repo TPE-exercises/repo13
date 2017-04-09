@@ -1,4 +1,4 @@
-package repo13;
+package de.hsMannheim.tpe.ss17.gruppe13;
 
 public class Main {
 
