@@ -1,6 +1,6 @@
 import myutil.*;
 
-public class StackArray implements Stack {
+public class StackArray implements Stack,ADT {
 	static int ixd =0;
 	static int exceptionflag=0;
 
@@ -99,6 +99,13 @@ public class StackArray implements Stack {
 		}
 		else
 			return false;
+	}
+
+
+	@Override
+	public Object front() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

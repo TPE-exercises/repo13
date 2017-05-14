@@ -1,6 +1,6 @@
 import myutil.*;
 
-public class QueueArray implements Queue {
+public class QueueArray implements Queue,ADT {
 	private Object[] values;
 	private int exceptionFlag = 0;
 	private int inPointer;

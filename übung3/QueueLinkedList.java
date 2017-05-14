@@ -1,6 +1,6 @@
 import myutil.*;
 
-public class QueueLinkedList implements Queue {
+public class QueueLinkedList implements Queue,ADT {
 
 	private int size;
 	private LinkedList values;

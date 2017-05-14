@@ -1,6 +1,6 @@
 import myutil.*;
 
-public class StackLinkedList implements Stack {
+public class StackLinkedList implements Stack,ADT {
 	private int size;
 	private LinkedList values;
 	private int exceptionFlag = 0;
@@ -56,6 +56,11 @@ public class StackLinkedList implements Stack {
 	@Override
 	public int size() {
 		return this.values.size();
+	}
+
+	@Override
+	public Object front() {
+		return this.values.getFirst();
 	}
 
 }
