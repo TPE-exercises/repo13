@@ -58,57 +58,27 @@ public class Sort {
 				for (int i = 0; i < numberSequence.length - 1; i++) {
 
 					if (numberSequence[i].compareTo(numberSequence[i + 1]) > 0) {
-						// if (numberSequence[i] > numberSequence[i + 1]) {
+						
 						swap(numberSequence, i, i + 1);
 						swapped = true;
 						moved = true;
 
 					}
 
-					// print protocol
-					// println("-----------------------------------");
-					// println("links nach rechts");
-					// for (int d = 0; d < i + 1; d++) {
-					// print(numberSequence[d] + " ");
-					// }
-					// if (moved)
-					// print("_" + numberSequence[i + 1] + "_ ");
-					// else
-					// print(numberSequence[i + 1] + " ");
-					// for (int d = i + 2; d < numberSequence.length; d++) {
-					// print(numberSequence[d] + " ");
-					// }
-					// println();
-					// moved = false;
-					// print protocol end
+					
 				}
 
 				// swap right to left
 				for (int i = numberSequence.length - 1; i > 0; i--) {
 					if (numberSequence[i].compareTo(numberSequence[i - 1]) < 0) {
-						// if (numberSequence[i] < numberSequence[i - 1]) {
+						
 						swap(numberSequence, i, i - 1);
 						swapped = true;
 						moved = true;
 
 					}
 
-					// print protocol
-					// println("-----------------------------------");
-					// println("rechts nach links");
-					// for (int d = 0; d < i - 1; d++) {
-					// print(numberSequence[d] + " ");
-					// }
-					// if (moved)
-					// print("_" + numberSequence[i - 1] + "_ ");
-					// else
-					// print(numberSequence[i - 1] + " ");
-					// for (int d = i; d < numberSequence.length; d++) {
-					// print(numberSequence[d] + " ");
-					// }
-					// println();
-					// moved = false;
-					// print protocol end
+					
 				}
 
 			} while (swapped);

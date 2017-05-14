@@ -17,7 +17,7 @@ public class MyString implements Comparable<MyString> {
 	 */
 	@Override
 	public int compareTo(MyString o) {		
-		//TODO Methode bestimmt nicht gültig, danicht selbst geschrieben
+		
 		return this.string.compareTo(o.getString());
 	}
 

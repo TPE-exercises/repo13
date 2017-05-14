@@ -27,8 +27,8 @@ public class main {
 				
 				
 				Comparable[] arrayStr0 = {};
-				Comparable[] arrayStr1 = {new MyString("a"),new MyString("ab"),new MyString("c"),new MyString("ad"),new MyString("ab"),new MyString("ac")};
-				Comparable[] arrayStr2 = {new MyString("Apfel"),new MyString("Zaun"),new MyString("Katze"),new MyString("Birne"),new MyString("Mia"),new MyString("Emilia")};
+				Comparable[] arrayStr1 = {new MyString("a"),new MyString("c"),new MyString("ab"),new MyString("ad"),new MyString("z"),new MyString("ac")};
+				Comparable[] arrayStr2 = {new MyString("Apfel"),new MyString("Zaun"),new MyString("Katze"),new MyString("Birne"),new MyString("Kaffee"),new MyString("Hallo")};
 				
 				Sort.sortArray(sort1, arrayStr0);
 				printSeperator();
