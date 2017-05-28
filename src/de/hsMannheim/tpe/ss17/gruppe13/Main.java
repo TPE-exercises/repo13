@@ -28,15 +28,7 @@ public class Main {
 		btree.insert(26);
 		btree.insert(27);
 		
-		btree2.insert(100);
-		btree2.insert(101);
-		btree2.insert(102);
-		btree2.insert(103);
-		btree2.insert(104);
-		btree2.insert(105);
-		btree2.insert(106);
-		btree2.insert(107);
-
+		
 		System.out.println(btree.size());
 		System.out.println(btree.isEmpty());
 		System.out.println(btree.getMax());

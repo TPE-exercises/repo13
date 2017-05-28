@@ -5,8 +5,8 @@ public class CaesarMain {
 
 	public static void main(String[] args) throws IOException {
 	
-		String orginal ="Hallo";
-		int key=5;
+		String orginal ="Hallo\r Hallo2\r Hallo3";
+		int key=27;
 		
 		CaesarWriter cw = new CaesarWriter(new FileWriter("caesar.txt"),key);
 		cw.write(orginal,0, orginal.length());

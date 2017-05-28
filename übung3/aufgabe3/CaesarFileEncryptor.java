@@ -4,7 +4,7 @@ import aufgabe2.*;
 
 public class CaesarFileEncryptor implements IFileEncryptor {
 	public static void main(String[] args) throws IOException{
-		File testEncr = new File("Filetest1");
+		File testEncr = new File("StartDir");
 		File testDecr = new File("Filetestdecrypted");
 		
 		CaesarFileEncryptor cfe = new CaesarFileEncryptor(5);
